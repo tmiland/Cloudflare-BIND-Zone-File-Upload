@@ -37,9 +37,9 @@ Not all records are valid. (See sample output below)
 </p></details>
 
 ## Credits
-- Code is customized from these sources:
-[Delete all DNS records for specified zone](https://gist.github.com/slayer/442fa2fffed57f8409e0b23bd0673a92)
-[Cloudflare API v4 Documentation](https://api.cloudflare.com/)
+Code is customized from these sources:
+- [Delete all DNS records for specified zone](https://gist.github.com/slayer/442fa2fffed57f8409e0b23bd0673a92)
+- [Cloudflare API v4 Documentation](https://api.cloudflare.com/)
 
 ## Donations 
 - [PayPal me](https://paypal.me/milanddata)
