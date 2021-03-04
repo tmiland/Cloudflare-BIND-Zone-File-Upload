@@ -62,6 +62,12 @@ DOMAIN=$4
 PROXIED=$5
 
 FILE="$(find /var -name $DOMAIN.hosts)"
+
+if [ ! -f "$FILE" ]; then
+    echo "Error! BIND File not found"
+    exit 0
+fi
+
 cd "${CURRDIR}" || exit
 cp -rp $FILE $DOMAIN.txt
 DOMAIN_FILE=./$DOMAIN.txt
