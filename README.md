@@ -57,6 +57,6 @@ Sign up for web hosting using this link, and receive $100 in credit over 60 days
 
 ### License
 
-[![MIT License Image](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/220px-MIT_logo.svg.png)](https://github.com/tmiland/Invidious-Updater/blob/master/LICENSE)
+[![MIT License Image](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/220px-MIT_logo.svg.png)](https://github.com/tmiland/Cloudflare-BIND-Zone-File-Upload/blob/master/LICENSE)
 
-[MIT License](https://github.com/tmiland/Invidious-Updater/blob/master/LICENSE)
+[MIT License](https://github.com/tmiland/Cloudflare-BIND-Zone-File-Upload/blob/master/LICENSE)
