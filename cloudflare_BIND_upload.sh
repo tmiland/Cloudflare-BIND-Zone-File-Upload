@@ -71,6 +71,12 @@ fi
 cd "${CURRDIR}" || exit
 cp -rp $FILE $DOMAIN.txt
 DOMAIN_FILE=./$DOMAIN.txt
+# Export DNS Records
+curl -X GET "https://api.cloudflare.com/client/v4/zones/${ZONE_ID}/dns_records/export" \
+ -H "X-Auth-Email: ${EMAIL}" \
+ -H "X-Auth-Key: ${KEY}" \
+ -H "Content-Type: application/json" > ./$DOMAIN.txt.bak
+ echo "Current DNS records backed up to ./$DOMAIN.txt.bak"
 # Get Record IDs
 curl -X GET https://api.cloudflare.com/client/v4/zones/${ZONE_ID}/dns_records?per_page=500 \
      -H "X-Auth-Email: ${EMAIL}" \
